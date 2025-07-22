@@ -23,7 +23,7 @@ export default function Main({onLogout}) {
   async function reviewCode() {
   setLoading(true); // start loader
   try {
-    const responses = await axios.post(`http://localhost:8080/ai/getresponse`, { code });
+    const responses = await axios.post(`https://backend-5rzv.onrender.com/ai/getresponse`, { code });
     console.log(responses.data);
     setreview(responses.data.review);
   } catch (error) {
