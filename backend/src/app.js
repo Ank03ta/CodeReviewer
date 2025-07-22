@@ -5,13 +5,13 @@ import cors from "cors";
 
 app.use(express.json()); 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://codereviewer-4rgg.onrender.com/",
      credentials: true
    
 }));
 
 app.get("/",(req, res) =>{
-    res.redirect("http://localhost:5173");
+    res.redirect("https://codereviewer-4rgg.onrender.com/");
 });
 
 app.use("/ai",aiRoutes);
