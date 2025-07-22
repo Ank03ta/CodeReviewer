@@ -24,9 +24,9 @@ export default function Login({ onLogin }) {
 
   return (
     <form onSubmit={handleSubmit} className='loginForm'>
-      <h2>Login</h2>
-      Enter Email:<input type="email" name="email" placeholder="Email" onChange={handleChange} required /><br />
-      Enter password:<input type="password" name="password" placeholder="Password" onChange={handleChange} required /><br />
+      <h2 style={{ color: 'purple'}}>Login</h2>
+      <h4 style={{ color: 'white'}}>Enter Email</h4><input type="email" name="email" placeholder="Email" onChange={handleChange} required /><br />
+     <h4 style={{ color: 'white'}}>Enter Password</h4><input type="password" name="password" placeholder="Password" onChange={handleChange} required /><br />
       <button type="submit">Login</button>
     </form>
   );

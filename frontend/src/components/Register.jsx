@@ -22,10 +22,10 @@ export default function Register({ onRegisterSuccess }) {
 
   return (
     <form onSubmit={handleSubmit} className='registerForm'>
-      <h2>Register</h2>
-      Enter Name: <input type="text" name="username" placeholder="Username" onChange={handleChange} required /><br /><br />
-      Enter email: <input type="email" name="email" placeholder="Email" onChange={handleChange} required /><br /><br />
-      Enter password:<input type="password" name="password" placeholder="Password" onChange={handleChange} required /><br /><br />
+      <h2 style={{ color: 'purple'}}>Register</h2>
+      <h4 style={{ color: 'white'}}>Enter name</h4> <input type="text" name="username" placeholder="Username" onChange={handleChange}  required /><br /><br />
+      <h4 style={{ color: 'white'}}>Enter Email</h4> <input type="email" name="email" placeholder="Email" onChange={handleChange} required /><br /><br />
+     <h4 style={{ color: 'white'}}>Enter Password</h4><input type="password" name="password" placeholder="Password" onChange={handleChange} required /><br /><br />
       <button type="submit">Register</button>
     </form>
   );

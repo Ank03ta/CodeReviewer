@@ -11,7 +11,7 @@ export default function Entry({ onLoginSuccess }) {
         <>
           <Register onRegisterSuccess={() => setShowRegister(false)} />
           <p className='ask'>
-            Already have an account?{' '}
+            <h4 style={{ color: 'white',marginBottom:'15px'}}>Already have an account ?</h4>{' '}
             <button onClick={() => setShowRegister(false)}>Login</button>
           </p>
         </>
@@ -19,7 +19,7 @@ export default function Entry({ onLoginSuccess }) {
         <>
           <Login onLogin={onLoginSuccess} />
           <p className='ask'>
-            Don’t have an account?{' '}
+           <h4 style={{ color: 'white',marginBottom:'15px'}}>Don't have an account ?</h4>{' '}
             <button onClick={() => setShowRegister(true)}>Register</button>
           </p>
         </>
