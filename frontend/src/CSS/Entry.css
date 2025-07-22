@@ -1,0 +1,30 @@
+.Entrypage{
+        
+        width: 100vh*2;
+        margin: 0 auto;
+        padding-top: 5rem;
+        height: 100vh;
+        background-color: rgb(1, 6, 11);
+       
+}  
+
+h2{
+        text-align: center;
+        margin: 1rem;
+}
+.registerForm{
+        text-align: center;
+        margin-bottom: 1rem;
+}
+.registerForm>input{
+        margin-left: 1rem;
+}
+button{
+        color: rgb(255, 255, 255);
+        background-color: rgb(60, 11, 80);
+        padding: 0.5rem;
+        border-radius: 25rem;
+}
+.ask{
+        text-align: center;
+}
