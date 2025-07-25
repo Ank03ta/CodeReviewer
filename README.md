@@ -27,10 +27,12 @@ cd codeReviewr
 
 # 2. cd server
 npm install
+
 npm start
 
 # 3. cd /frontend
 npm install
+
 npm start
 
 AI Code Review
@@ -39,6 +41,7 @@ AI Code Review
 You can send code snippets to the backend, which forwards them to an AI model (like Gemini API) to get a review or feedback.
 
  ~~ Author ~~
+ 
  Ankita Yadav
 
 
